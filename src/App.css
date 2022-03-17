@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+.App-header {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+  gap: 2rem;
+  padding: 0 15px;
+}
+
+.Header{
+  width: 310px;
+  margin-top: 20px;
+}
+
+.General{
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.First-Colum{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.Colum-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.Header-Colum-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.Header-Colum-2 p{
+  font-family: 'Nunito', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.Btns-Colum-2{
+  display: flex;
+  width: 290px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button{
+  height: 30px;
+  font-size: 12px;
+  border-radius: 8px;
+  border: unset;
+  color: #868E96;
+  cursor: pointer;
+}
+
+.List{
+  margin-top: 10px;
+  overflow-y: scroll;
+  max-height: 320px;
+}
+
+.Btns{
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+#Btn1:hover{
+  background-color: #FD377E;
+  color: white;
+}
+
+#Btn1:focus{
+  background-color: #FD377E;
+  color: white;
+}
+
+#Btn2:hover{
+  background-color: #FD377E;
+  color: white;
+}
+
+#Btn2:focus{
+  background-color: #FD377E;
+  color: white;  }
+
+#Btn3:hover{
+  background-color: #FD377E;
+  color: white;  }
+
+#Btn3:focus{
+  background-color: #FD377E;
+  color: white;  }
+
+/* .Clicado{
+  background-color: #FD377E;
+  color: white;
+  font-weight: 700;
+}
+
+.NaoClicado{
+  background-color: #E9ECEF;
+  color: #868E96;
+  font-weight: 700;
+} */
+
+@media screen and (min-width: 768px){
+
+  .Header{
+    width: 70%;
+  }
+
+  .General{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .First-Colum{
+    width: 363px;
+    height: 351px;
+  }
+
+  .Header-Colum-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* height: 500px; */
+    /* overflow-y: scroll; */
+  }
+
+  .List{
+    padding: 0 10px;
+  }
+
+  button{
+    height: 40px;
+  }
+
+  .Btns{
+    width: 250px;
+    display: flex;
+    gap: 20px;
+    margin-right: 8px;
+  }
+
+  #Btn1{
+    width: 69px;
+  }
+
+  #Btn2{
+    width: 87px;
+  }
+
+  #Btn3{
+    width: 92px;
+  }
+
+  #Btn1:hover{
+    background-color: #FD377E;
+    color: white;
+  }
+
+  #Btn1:focus{
+    background-color: #FD377E;
+    color: white;
+  }
+
+  #Btn2:hover{
+    background-color: #FD377E;
+    color: white;
+  }
+
+  #Btn2:focus{
+    background-color: #FD377E;
+    color: white;  }
+
+  #Btn3:hover{
+    background-color: #FD377E;
+    color: white;  }
+
+  #Btn3:focus{
+    background-color: #FD377E;
+    color: white;  }
+
+  .Colum-2{
+    justify-content: flex-start;
+  }
+
+}
+

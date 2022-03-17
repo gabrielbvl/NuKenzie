@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+.TotalMoney{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 285px;
+    height: 68px;
+    background-color: #E34981;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0 16px 0 16px;
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.P-TotalMoney{
+    font-size: 16px;
+}

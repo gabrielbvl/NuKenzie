@@ -1,0 +1,101 @@
+.form{
+    width: 363px;
+    height: 351px;
+    box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+input{
+    background-color: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+}
+
+select{
+    background-color: #F8F9FA;
+    border: 2px solid #F8F9FA;
+    border-radius: 8px;
+}
+
+.Input-Description{
+    width: 282px;
+    height: 52.8px;
+    padding: 0 16px 0 16px;
+}
+
+p{
+    font-size: 12px;
+}
+
+.Titulo{
+    color: #212529;
+}
+
+.Ex{
+    font-size: 12px;
+    color: #868E96;
+}
+
+.Valor{
+    display: flex;
+    justify-content: space-between;
+    width: 314px;
+}
+
+.Input-Value{
+    display: flex;
+    width: 128px;
+    height: 48px;
+    justify-content: space-between;
+}
+
+.Select{
+    display: flex;
+    width: 128px;
+    height: 48px;
+    color: #868E96;
+}
+
+.Btn-AddValue{
+    width: 314px;
+    height: 48px;
+    border-radius: 8px;
+    border: unset;
+    background-color: #FD377E;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+
+@media screen and (min-width: 768px){
+
+    .Input-Description{
+        width: 278px;
+        height: 52.8px;
+        padding: 0 16px 0 16px;
+    }   
+    
+    .Input-Value{
+        width: 128px;
+        height: 48px;
+    }
+    
+    .Select{
+        width: 150px;
+        height: 52px;
+        
+    }
+    
+    .Btn-AddValue{
+        width: 314px;
+        height: 48px;
+    }
+
+}
